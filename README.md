@@ -5,8 +5,29 @@ Description of institutional rules and regulations regarding the usage of github
 2. Currently you need to submit a helpdesk ticket to have a new repository created
   1. By default they will create a private repository for you called "toolkit_username"
 3. All new repositories **MUST** be private
-4. By legal is currently recommending all repositories include the **MIT License**
+4. Legal is currently recommending all repositories include the **MIT License**
 5. Before a repository is move from a private to public repository legal **MUST** sign off
+
+---
+
+# Coding Recommendations
+
+1. Comment code assuming someone else will leverage the code
+  * Assume you will not remember how you did something a couple months later
+2. Use what ever language you feel appropriate (**But** python over perl...)
+3. Code should when possible be designed for usage by others at TGen
+  * Don't use binaries in you $PATH or in your local directory
+    * When ever possible use module load package/version **or** module add package/version
+  * Attempt to make all code username independent
+    * Use relative paths or dynamically determine username
+
+---
+
+# Using GITHUB with Different IDEs or Terminal Enviroments
+
+1. R Studio
+2. PyCharm
+3. Terminal
 
 ---
 

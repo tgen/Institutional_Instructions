@@ -25,9 +25,54 @@ Description of institutional rules and regulations regarding the usage of github
 
 # Using GITHUB with Different IDEs or Terminal Enviroments
 
-1. R Studio
-2. PyCharm
-3. Terminal
+## 1. R Studio
+## 2. PyCharm
+## 3. Terminal
+
+##### Cloning the repository
+
+```
+git clone "repository"
+# The "repository" can be copied from the repository website
+# Copy the link under the "Clone or Download" button
+# This version is the SSH version there is also an HTTPS version
+git clone git@github.com:tgen/Institutional_Instructions.git
+```
+##### Now that is downloaded move into the local version of the repository
+```
+cd Institutional_Instructions/
+```
+
+##### Now pull down the most recent version
+```
+git pull
+# Likely get the following message the first time, before modifying you should "pull" to get most recent code
+Already up-to-date.
+```
+
+##### MODIFY THE FILES YOU NEED TO MODIFY
+
+###### IF YOU CREATED NEW FILES YOU WILL NEED TO "ADD" THEM BEFORE COMMITTING AND PUSHING
+```
+git add Message.sh
+    
+git add file OR git add folder
+#Add gender test folder
+git add gender_test/
+#Add all files in gender test folder
+git add gender_test/*
+```
+
+##### Commit the changes AND add a comment
+```
+git commit -am "your comment about what you changed"
+git commit -am "Added message file for example ADD, COMMIT, and PUSH"
+```
+##### Then to push the update to the github website
+```
+git push #this pushes your changes to github
+git push
+```
 
 ---
 

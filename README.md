@@ -24,6 +24,7 @@ Description of institutional rules and regulations regarding the usage of github
 # Using GITHUB with Different IDEs or Terminal Enviroments
 
 ## 1. R Studio
+Recommend this book from Jenny Bryan - https://happygitwithr.com/
 ## 2. PyCharm
 ## 3. Terminal
 

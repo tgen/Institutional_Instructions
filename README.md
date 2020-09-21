@@ -2,11 +2,9 @@
 Description of institutional rules and regulations regarding the usage of github, plus usage guidelines
 
 1. All code should be stored in github to allow institutional sharing and proper version control
-2. Currently you need to submit a helpdesk ticket to have a new repository created
-  1. By default they will create a private repository for you called "toolkit_username"
-3. All new repositories **MUST** be private
-4. Legal is currently recommending all repositories include the **MIT License**
-5. Before a repository is move from a private to public repository legal **MUST** sign off
+2. All new repositories **MUST** be private
+3. Legal is currently recommending all repositories include the **MIT License**
+4. Before a repository is move from a private to public repository legal **MUST** sign off
 
 ---
 
